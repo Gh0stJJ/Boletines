@@ -1,0 +1,50 @@
+.flexy{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 100%;
+    font-weight: 200;
+    flex-wrap: wrap;
+
+    
+}
+
+header, footer{
+    background-color: #0ff0f8;
+    
+    align-items: center;
+    
+}
+
+nav{
+    background-color: #d10ff8;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 33.333%;
+    
+    
+}
+
+article{
+    background-color: #0f61f8;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.333%;
+    
+    
+}
+
+aside{
+    background-color: #f0f80f;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.333%;
+    
+    
+}

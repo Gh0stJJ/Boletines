@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Config form</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.3.3/darkly/bootstrap.min.css"
+            integrity="sha512-HDszXqSUU0om4Yj5dZOUNmtwXGWDa5ppESlX98yzbBS+z+3HQ8a/7kcdI1dv+jKq+1V5b01eYurE7+yFjw6Rdg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!-- Static content -->
+        <link rel="stylesheet" href="./CSS/styles.css">
+    </head>
+
+    <body>
+        <header>
+        
+            <div id = "header_logo">
+
+                <img src="./assets/header_logo.png" width="80" />
+                <div id="brand">
+                    Config new form
+                </div>
+            </div>
+
+            <div id="finish_btn">
+                <button type="button" class="btn btn-primary">Finalizar configuración</button>
+            </div>
+        
+        
+        </header>
+        <main id="main">
+
+            <div id="title">
+                <h1>Configurar nuevo formulario</h1>
+            </div>
+           
+            <div id="error" ></div>
+
+            <div class="card" id="creator">
+                <div class="card-header">
+                    <strong>Configuración del formulario</strong>
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="formName">Título</label>
+                        <input type="text" class="form-control" id="formName" placeholder="Ingrese el título del formulario">
+                    </div>
+                    <div class="form-group">
+                        <label for="formDescription">Descripción del formulario</label>
+                        <input type="text" class="form-control" id="formDescription" placeholder="Descripción">
+                    </div>
+
+                </div>
+            </div>
+            <!-- Question component -->
+            <div class="card">
+                <div class="card-header">
+                    <strong>Configuración de pregunta</strong>
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="fieldName">Nombre de la pregunta</label>
+                        <input type="text" class="form-control" id="question_title0" placeholder="Ingrese un nombre para la pregunta">
+                    </div>
+                    <div class="form-group">
+                        <label for="fieldType">Tipo de pregunta</label>
+                        <select class="form-select" id=" select0">
+                            <option selected>Tipo de pregunta...</option>
+                            <option value="1">Texto</option>
+                            <option value="2">Verdadero/falso</option>
+                            <option value="3">Opción multiple</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add field button -->
+            <button type="button" id="add_form_btn" class="btn btn-primary">&plus;</button>
+
+
+
+            
+
+
+
+
+        </main>
+        <footer>
+            <!-- place footer here -->
+        </footer>
+
+        
+        <script src="./JS/app.js"></script>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+            </script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

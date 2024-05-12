@@ -1,0 +1,148 @@
+/* Variables del CSS */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700&display=swap');
+
+@import "reset.css";
+
+:root {
+    /* Set of retrowave colors */
+    --navbar-color: #373a38; /* Rosado neón para la barra de navegación */
+    --text-color: #f0f0f0; /* Blanco puro para el texto */
+    --background-color: #1a1a1a; /* Gris oscuro casi negro para el fondo */
+    --button-color: #ff6b6b; /* Rosado neón para los botones */
+    --button-hover-color: #ff758c; /* Rosado neón claro para el hover de los botones */
+    --accent-color-1: #00eaff; /* Azul neón */
+    --accent-color-2: #ffcc00; /* Amarillo neón */
+    --accent-color-3: #ff3d00; /* Rojo neón */
+    --accent-color-4: #00ff88; /* Verde neón */
+    --accent-color-5: #ff00ff; /* Magenta neón */
+}
+
+
+
+html {
+    color: var(--text-color);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    /* Se incluye el auto para centrar el contenido automaticamente */
+    margin: 30px auto 0px auto;
+    gap: 20px;
+
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    background: var(--navbar-color);
+    /* Imagen de fondo */
+    background-image: url("../assets/pattern_header.jpg");
+    padding: 20px;
+    width: 100%;
+    /* Alinear a los extremos */
+    justify-content:space-between;
+
+}
+
+#header_logo{
+    gap: 30px;
+    display: flex;
+    float: left;
+    align-items: center;
+}
+
+#finish_btn{
+    display: flex;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
+}
+
+
+#form {
+    width: auto;
+}
+
+#container{
+    display: flex;
+
+    margin: auto 100px auto 100px;
+
+    /* centrar el contenido en el eje x */
+    justify-content: center;
+    flex-direction: row;
+    min-height: 70vh;
+    gap: 20px;
+
+}
+
+#brand{
+    font-size: 1.5rem;
+    margin-left: 20px;
+    color: var(--text-color);
+}
+
+
+#title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: var(--text-color);
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.card-header p{
+    font-size: 2rem;
+    color: var(--text-color);
+    margin: 0;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#add_form_btn{
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    
+    transition: background-color 0.3s;
+}
+
+.options-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    margin: 15px auto 15px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.options-container button{
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+   
+    transition: background-color 0.3s;
+}
+
+#questions{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    width: 100%;
+}
